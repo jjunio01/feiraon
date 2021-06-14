@@ -1,0 +1,140 @@
+body {
+    background-image: linear-gradient(to top, #E6D900, #D9FA00, #80E30B);
+    font-family: 'Seymour One', sans-serif;   
+}
+
+header {
+    padding: 20px 0px;
+}
+.div-logo {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.div-logo h1, h2 {
+    position: absolute;
+}
+
+.div-logo h1 {
+    left: 470px;
+    top: 50px;
+    font-size: 40px;
+}
+
+.div-logo h2 {
+    top: 140px;
+    display: inline;
+}
+
+.logo-marca {
+    width: 240px;
+}
+
+.titulo-principal, .subtitulo {
+    text-align: center;
+}
+
+main {
+    padding: 2px 10px;
+    position: relative;
+    font-size: 18px;
+}
+
+.informacoes {
+    background: #FFFFFF;
+    padding: 10px;
+    text-align: justify;
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    width: 60%;
+}
+
+.informacoes em {
+    color: aqua;
+}
+
+.informacoes h3 {
+    text-align: center;
+}
+.imagens-produtos {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagens-produtos p {
+    text-align: center;
+}
+
+.imagens-produtos li {
+    padding: 10px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #8901FA;
+}
+
+.imagens-produtos img {
+    width: 250px;
+    height: 250px;
+}
+
+.imagem:hover {
+    transition: all 1.5s;
+    transform: scale(1.15);
+}
+.div-formulario {
+    
+    margin-left: 5px;
+    padding: 10px;
+    background: #FFFFFF;
+    display: inline;
+    position: absolute;
+    display: inline-block;
+    width: auto;
+    
+}
+
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.formulario {
+    display: block;
+    margin-right: 50px;
+}
+
+
+.submite-cadastro {
+    background: #8901FA;
+    border: none;
+    border-radius: 8px;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 40%;
+}
+
+
+
+footer {
+    background: #FFFFFF;
+    padding: 10px;
+    margin-top: 20px;
+}
+.copyright {
+    font-size: 12px;
+    text-align: center;
+}

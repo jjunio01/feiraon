@@ -1,0 +1,64 @@
+body {
+    background: rgb(143, 231, 143);
+    font-family: 'Seymour One', sans-serif;   
+}
+
+header {
+    padding: 20px 0px;
+}
+.div-logo {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.div-logo h1, h2 {
+    position: absolute;
+}
+
+.div-logo h1 {
+    left: 470px;
+    top: 50px;
+    font-size: 40px;
+}
+
+.div-logo h2 {
+    top: 140px;
+    display: inline;
+}
+
+.logo-marca {
+    width: 240px;
+}
+
+.titulo-principal, .subtitulo {
+    text-align: center;
+}
+
+main {
+    height: 40vh;
+  
+}
+.mensagem {
+    position:relative
+}
+
+
+
+h1, h2 {
+    text-align: center;
+}
+
+em {
+    color: #FFFFFF;
+}
+
+footer {
+    background: #FFFFFF;
+    padding: 10px;
+    margin-top: 10px;
+}
+.copyright {
+    font-size: 12px;
+    text-align: center;
+}
